@@ -4,8 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alani's E-Sports Website</title>
+    <style>
+        body {
+            background-color: #8198DE; /* Background color for the main page */
+            font-family: Helvetica, Arial, sans-serif;
+            color: white; /* Text color for paragraphs */
+        }
+        
+        h1, h2, h3 {
+            color: black; /* Text color for titles */
+        }
+        
+        .navbar {
+            background-color: gray; /* Background color for the navigation bar */
+            overflow: hidden;
+        }
+        
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .navbar a:hover {
+            background-color: #5F3ADE; /* Background color on hover */
+        }
+        
+        .subheading {
+            color: #E0D6C8; /* Text color for subheadings */
+            font-style: italic;
+        }
+        
+        /* Page-specific styles */
+        .blog-post {
+            background-color: #5F3ADE; /* Background color for Blog Posts page */
+        }
+        
+        .game-mechanics {
+            background-color: #8198DE; /* Background color for Game Mechanics page */
+        }
+    </style>
 </head>
 <body>
-    <h1 style="font-size: 48px; text-align: center;">Alani's E-Sports Website</h1>
+    <div class="navbar">
+    <a href="index.html">Main</a>
+    <a href="blog_posts.html">Blog Posts</a>
+    <a href="game_mechanics.html">Roblox: Arsenal - Game Mechanics/Coaching</a>
+</div>
+
+    <div class="content">
+        <h1>Welcome to Alani's E-Sports Website</h1>
+        <h2>Main Page</h2>
+        <p>This is the main page of Alani's E-Sports Website. Explore my content using the navigation bar above.</p>
+    </div>
+
+    <!-- Blog Posts Page -->
+    <div class="content blog-post">
+        <h2>Blog Posts</h2>
+        <h3>Article/Blog Post #1</h3>
+        <p>My dream rig would be generally a Desktop PC and it’d be a custom made machine...</p>
+        <!-- Include more blog posts here -->
+    </div>
+
+    <!-- Roblox: Arsenal - Game Mechanics/Coaching Page -->
+    <div class="content game-mechanics">
+        <h2>Roblox: Arsenal - Game Mechanics/Coaching</h2>
+        <p>Detailed description of the game Arsenal...</p>
+        <!-- Include more content about the game mechanics and coaching -->
+    </div>
 </body>
 </html>
